@@ -95,7 +95,7 @@ export function InfiniteSlider({
             : { y: translation }),
           gap: `${gap}px`,
           flexDirection: direction === 'horizontal' ? 'row' : 'column',
-        } as React.CSSProperties}
+        } as unknown as React.CSSProperties}
         ref={ref}
         {...hoverProps}
       >
