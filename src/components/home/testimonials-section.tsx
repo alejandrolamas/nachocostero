@@ -8,56 +8,56 @@ const testimonials = [
       "La seguridad y confianza que transmite Nacho nos permitió disfrutar del proceso con total tranquilidad, sabiendo que estabamos en buenas manos. Se implica al máximo desde la contratación hasta el gran día, cuidando cada momento para que la celebración sea inolvidable.",
     name: "ISMAEL Y ELENA",
     designation: "Boda",
-    src: "/images/bodas/IMG_8424.jpg",
+    src: "/images/bodas/IMG_8424.webp",
   },
   {
     quote:
       "Lo que más nos sorprendió de Nacho fue su habilidad para mezclar canciones conocidas con un estilo propio que hace imposible quedarse sentado. Sabe elegir el momento perfecto para cada tema, manteniendo la energía siempre arriba y sin que la pista pierda fuerza. Fue un lujazo contar con él.",
     name: "ENRIQUE Y ALICIA",
     designation: "Boda",
-    src: "/images/bodas/IMG_8425.jpg",
+    src: "/images/bodas/IMG_8425.webp",
   },
   {
     quote:
       "Tiene la capacidad de conectar con todo tipo de invitados y consigue que la fiesta se mantenga animada desde el primer baile hasta el último. Después de haber asistido a muchas bodas y verle trabajar en varias de ellas, tuvimos clarísimo que queríamos que fuera el DJ de la nuestra. Y sin duda, fue todo un acierto: la fiesta fue un auténtico éxito.",
     name: "BORJA Y ANA",
     designation: "Boda",
-    src: "/images/bodas/IMG_8426.jpg",
+    src: "/images/bodas/IMG_8426.webp",
   },
   {
     quote:
       "Desde aquel día, para nosotros no es solo nuestro DJ, es alguien a quien consideramos un amigo.",
     name: "EDER Y JUDITH",
     designation: "Boda",
-    src: "/images/bodas/IMG_8427.jpg",
+    src: "/images/bodas/IMG_8427.webp",
   },
   {
     quote:
       "Solo podemos darle las gracias. Nos acompañó y asesoró durante todo el proceso, desde la elección de proveedores hasta la selección de las canciones perfectas para cada momento. Es de esas personas que conectan de verdad y que, más allá de su profesionalidad como DJ, aportan algo especial.",
     name: "CHEMA Y MARINA",
     designation: "Boda",
-    src: "/images/bodas/IMG_8428.jpg",
+    src: "/images/bodas/IMG_8428.webp",
   },
   {
     quote:
       "Que Nacho formara parte de nuestra boda fue, sencillamente, increíble. No solo por su cercanía y calidad humana, sino porque consiguió que viviéramos un día inolvidable. Tanto fue así que, después de nuestra experiencia, muchos amigos decidieron contar con él para sus propias bodas.",
     name: "CARLOS Y PATRICIA",
     designation: "Boda",
-    src: "/images/bodas/IMG_8519.jpg",
+    src: "/images/bodas/IMG_8519.webp",
   },
   {
     quote:
       "Le conocí en una salida nocturna con amigas. Desde que le escuché pinchar supe que él sería el dj de mi boda. Estoy muy emocionada por cómo fue todo.",
     name: "JAIME Y ANA",
     designation: "Boda",
-    src: "/images/bodas/NC_070226_89-Mejorado-NR.jpeg",
+    src: "/images/bodas/NC_070226_89-Mejorado-NR.webp",
   },
   {
     quote:
       "Veo los vídeos un año después y es imposible no sonreír. Que recuerdos tan bonitos. Eternamente agradecidos",
     name: "NACHO Y ALEJANDRA",
     designation: "Boda",
-    src: "/images/bodas/NC_070226_99-Mejorado-NR.jpeg",
+    src: "/images/bodas/NC_070226_99-Mejorado-NR.webp",
   },
   {
     quote:

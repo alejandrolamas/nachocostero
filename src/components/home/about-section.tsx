@@ -41,7 +41,7 @@ export function AboutSection() {
           <div className="relative aspect-[9/16] w-full max-w-[400px] rounded-3xl overflow-hidden shadow-2xl">
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent z-10" />
             <img
-              src="/images/personal/me.jpg"
+              src="/images/personal/me.webp"
               alt="Nacho Costero DJ"
               className="w-full h-full object-cover"
             />

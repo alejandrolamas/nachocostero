@@ -16,7 +16,7 @@ export function HeroSection() {
       <div className="absolute inset-0">
         {/* Poster image shown until video loads */}
         <img
-          src="/images/personal/portada.jpeg"
+          src="/images/personal/portada.webp"
           alt=""
           className="absolute inset-0 w-full h-full object-cover opacity-40 animate-slow-zoom transition-opacity duration-1000 ease-in-out"
           style={{ opacity: videoLoaded ? 0 : 0.4 }}

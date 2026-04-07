@@ -22,7 +22,7 @@ export function TimelineExperience() {
             </p>
           </div>
           <img
-            src="/images/personal/2y6a6359.jpg"
+            src="/images/personal/2y6a6359.webp"
             alt="DJ Nacho Costero"
             className="rounded-xl object-cover w-full shadow-2xl border border-zinc-800"
           />
@@ -45,7 +45,7 @@ export function TimelineExperience() {
             </div>
           </div>
           <img
-            src="/images/eventos/IMG_8262.jpg"
+            src="/images/bodas/IMG_8941.webp"
             alt="Pareja riendo y planificando"
             className="rounded-xl object-cover w-full shadow-2xl border border-zinc-800"
           />
@@ -71,11 +71,6 @@ export function TimelineExperience() {
               <li>✓ Set de DJ en directo sin cortes</li>
             </ul>
           </div>
-          <img
-            src="/images/bodas/IMG_8428.jpg"
-            alt="Presupuesto boda"
-            className="rounded-xl object-cover w-full shadow-2xl border border-zinc-800"
-          />
         </div>
       ),
     },
@@ -95,7 +90,7 @@ export function TimelineExperience() {
             </div>
           </div>
           <img
-            src="/images/eventos/JSC01691.jpg"
+            src="/images/eventos/IMG_8926.webp"
             alt="Estructura de luces y sonido en evento"
             className="rounded-xl object-cover w-full shadow-2xl border border-zinc-800"
           />
@@ -112,11 +107,6 @@ export function TimelineExperience() {
               Una vez formalizamos la reserva, empieza lo divertido. Crearemos una lista compartida en Spotify para que vayáis añadiendo vuestros temazos favoritos durante los meses previos.
             </p>
           </div>
-          <img
-            src="/images/personal/2y6a6383.jpg"
-            alt="Vinilos y música"
-            className="rounded-xl object-cover w-full shadow-2xl border border-zinc-800"
-          />
         </div>
       ),
     },
@@ -132,12 +122,12 @@ export function TimelineExperience() {
           </div>
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="/images/eventos/IMG_8001.jpg"
+              src="/images/eventos/IMG_1876.webp"
               alt="Gente bailando en la fiesta"
               className="rounded-xl object-cover w-full shadow-2xl border border-zinc-800"
             />
             <img
-              src="/images/bodas/IMG_8425.jpg"
+              src="/images/eventos/IMG_7634.webp"
               alt="Fiesta con luces y DJ"
               className="rounded-xl object-cover w-full shadow-2xl border border-zinc-800"
             />

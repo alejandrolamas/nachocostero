@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
+import path from "path";
 
 interface ContactBody {
   name: string;
@@ -30,8 +31,8 @@ function buildHtml(data: ContactBody) {
         <!-- Header -->
         <tr>
           <td style="background:linear-gradient(135deg,#222 0%,#111 100%);padding:32px 40px;text-align:center;border-bottom:1px solid #333;">
-            <h1 style="margin:0;font-size:24px;font-weight:700;color:#fff;letter-spacing:1px;">NACHO COSTERO DJ</h1>
-            <p style="margin:8px 0 0;font-size:13px;color:#888;letter-spacing:2px;">NUEVO MENSAJE DE CONTACTO</p>
+            <img src="cid:logo" alt="Nacho Costero" width="120" style="display:block;margin:0 auto 16px;" />
+            <p style="margin:0;font-size:13px;color:#888;letter-spacing:2px;text-transform:uppercase;">Nuevo mensaje de contacto</p>
           </td>
         </tr>
         <!-- Body -->
@@ -137,12 +138,21 @@ export async function POST(request: Request) {
       },
     });
 
+    const logoPath = path.join(process.cwd(), "public", "Nacho Costero 150px (1).png");
+
     await transporter.sendMail({
       from: `"Nacho Costero Web" <${process.env.SMTP_FROM ?? process.env.SMTP_USER}>`,
       to: process.env.CONTACT_EMAIL ?? process.env.SMTP_USER,
       replyTo: body.email,
       subject: `Nuevo contacto: ${body.name} — ${EVENT_LABELS[body.eventType] ?? body.eventType}`,
       html: buildHtml(body),
+      attachments: [
+        {
+          filename: "logo.png",
+          path: logoPath,
+          cid: "logo",
+        },
+      ],
     });
 
     return NextResponse.json({ ok: true });
