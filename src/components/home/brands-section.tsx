@@ -8,6 +8,8 @@ const logos = [
   { src: "/images/logos/hola.webp", alt: "¡Hola!", keepOriginal: true },
   { src: "/images/logos/casilda.webp", alt: "Casilda" },
   { src: "/images/logos/tenis.webp", alt: "Tenis" },
+  { src: "/images/logos/ayuntamiento-las-rozas.webp", alt: "Ayuntamiento de Las Rozas" },
+  { src: "/images/logos/iberia-logo-white.webp", alt: "Iberia" },
 ];
 
 export function BrandsSection() {

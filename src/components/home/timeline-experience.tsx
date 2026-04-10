@@ -58,18 +58,14 @@ export function TimelineExperience() {
         <div className="flex flex-col gap-6">
           <div className="flex items-start md:items-center gap-4">
             <FileText className="w-8 h-8 text-zinc-300 shrink-0 mt-1 md:mt-0" />
-            <p className="text-zinc-300">
-              Te envío un presupuesto claro, detallado y sin letra pequeña. Incluye todo lo necesario: cabina de DJ elegante, sistema de sonido de alta fidelidad, iluminación espectacular para la pista y mis horas de actuación.
-            </p>
-          </div>
-          <div className="bg-zinc-900 p-6 rounded-xl border border-zinc-800">
-            <h4 className="font-semibold text-white mb-4">¿Qué suele incluir?</h4>
-            <ul className="space-y-2 text-sm text-zinc-400">
-              <li>✓ Montaje y desmontaje del equipo</li>
-              <li>✓ Sonido premium adaptado al aforo</li>
-              <li>✓ Iluminación robótica y ambiental</li>
-              <li>✓ Set de DJ en directo sin cortes</li>
-            </ul>
+            <div className="flex flex-col gap-2">
+              <p className="text-zinc-300">
+                Cada evento es único y merece un presupuesto a medida. Tras conocer vuestras necesidades, os preparo una propuesta personalizada, clara y sin letra pequeña, adaptada 100% a lo que buscáis.
+              </p>
+              <p className="text-zinc-400 text-sm md:text-base">
+                No hay dos eventos iguales: el espacio, el aforo, el estilo musical y vuestra visión determinan la propuesta. Todo se adapta a vosotros.
+              </p>
+            </div>
           </div>
         </div>
       ),
@@ -103,9 +99,14 @@ export function TimelineExperience() {
         <div className="flex flex-col gap-6">
           <div className="flex items-start md:items-center gap-4">
             <CheckCircle2 className="w-8 h-8 text-zinc-300 shrink-0 mt-1 md:mt-0" />
-            <p className="text-zinc-300">
-              Una vez formalizamos la reserva, empieza lo divertido. Crearemos una lista compartida en Spotify para que vayáis añadiendo vuestros temazos favoritos durante los meses previos.
-            </p>
+            <div className="flex flex-col gap-2">
+              <p className="text-zinc-300">
+                Una vez formalizamos la reserva, empieza lo divertido. Me encantará escuchar vuestros gustos y preferencias musicales: canciones imprescindibles, estilos favoritos y esas canciones que no pueden faltar.
+              </p>
+              <p className="text-zinc-400 text-sm md:text-base">
+                Juntos elegiremos el montaje de sonido ideal para vuestro espacio. Os doy mi asesoramiento profesional para que todo suene perfecto y la experiencia esté cuidada al detalle.
+              </p>
+            </div>
           </div>
         </div>
       ),

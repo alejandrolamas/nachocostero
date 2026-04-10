@@ -82,22 +82,34 @@ export function AboutSection() {
             <span className="text-xs font-mono text-zinc-300 uppercase tracking-widest">Sobre Mí</span>
           </motion.div>
 
-          <motion.h2 variants={itemVariants} className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-8 leading-[1.1] tracking-tighter">
-            El arte de hacer las cosas bien <br className="hidden md:block" />
+          <motion.h2 variants={itemVariants} className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-8 leading-[1.1] tracking-tight">
+            El arte de hacer{" "}
+            <span className="italic">las cosas bien</span> <br className="hidden md:block" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-zinc-400 to-zinc-600">
               (y liarla como se merece)
             </span>
           </motion.h2>
 
-          <motion.div variants={itemVariants} className="space-y-6 text-zinc-400 text-lg md:text-xl font-light leading-relaxed">
+          <motion.div variants={itemVariants} className="space-y-6 text-zinc-400 text-lg md:text-xl leading-relaxed">
             <p>
-              Esto va de una cosa muy simple: que vuestro evento sea inolvidable y que la pista no se vacíe en toda la noche.
+              Esto va de una cosa muy simple: que vuestro evento sea{" "}
+              <span className="text-white font-semibold">inolvidable</span> y que la pista{" "}
+              <span className="text-white font-semibold">no se vacíe</span> en toda la noche.
             </p>
             <p>
-              Me encargo de todo lo que suena y de cómo suena. Desde el montaje del equipo más adecuado para el espacio, hasta la canción exacta que tiene que sonar en el momento perfecto. <span className="text-white font-medium">Cada detalle cuenta, y ahí es donde marco la diferencia.</span>
+              Me encargo de{" "}
+              <span className="text-white font-semibold">todo lo que suena</span>{" "}
+              y de cómo suena. Desde la{" "}
+              <span className="text-white font-semibold">selección musical perfecta</span>{" "}
+              hasta el asesoramiento técnico sobre el sonido más adecuado para el espacio.{" "}
+              <span className="text-white font-medium">Cada detalle cuenta, y ahí es donde marco la diferencia.</span>
             </p>
             <p>
-              Os asesoro en la parte técnica, os ayudo a definir el estilo musical y adapto cada sesión al tipo de evento y al público. Profesionalidad, energía y cero improvisaciones que puedan salir mal.
+              Os asesoro en la parte técnica, os ayudo a{" "}
+              <span className="text-white font-semibold">definir el estilo musical</span>{" "}
+              y adapto cada sesión al tipo de evento y al público.{" "}
+              <span className="text-white font-semibold">Profesionalidad, energía</span>{" "}
+              y cero improvisaciones que puedan salir mal.
             </p>
           </motion.div>
 

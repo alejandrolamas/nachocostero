@@ -44,10 +44,10 @@ const services = [
     icon: Music,
     title: "Clubs & Locales",
     description:
-      "Sesiones dinámicas para discotecas, beach clubs y locales de moda. Técnica impecable y energía contagiosa para el público más exigente.",
+      "He tenido el privilegio de pinchar en algunas de las salas más emblemáticas del país: Florida Park, Starlite Marbella, Teatro Kapital, Gunilla Club o Lust in Rio en Lisboa, entre muchas otras. A día de hoy soy DJ residente de la prestigiosa Gabana Club.",
     features: [
-      "Mezclas armónicas",
-      "Actualidad y clásicos",
+      "DJ residente en Gabana Club",
+      "Mezclas armónicas y técnica impecable",
       "Experiencia en gran formato",
     ],
   },
