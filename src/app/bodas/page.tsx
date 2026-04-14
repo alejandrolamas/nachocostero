@@ -10,36 +10,37 @@ export const metadata: Metadata = {
     "Cada boda es un mundo. Dedico tiempo a conoceros y diseñar una experiencia musical única, adaptada a vuestro estilo y al de vuestros invitados.",
 };
 
-const coverageItems = [
+const advisoryItems = [
   {
     icon: Heart,
     title: "Ceremonia",
-    subtitle: "The Beginning",
+    subtitle: "Asesoramiento",
     description:
-      "Música elegante y emotiva para el momento más importante. Selección personalizada para vuestra entrada, lecturas y salida.",
+      "Os asesoro en la selección musical perfecta para vuestra entrada, lecturas y salida. Preparo la playlist ideal para que todo fluya con la emoción que merece.",
   },
   {
     icon: Sparkles,
     title: "Cóctel",
-    subtitle: "Social Vibes",
+    subtitle: "Asesoramiento",
     description:
-      "Una selección cuidada que va desde el Jazz y Bossa Nova hasta el Deep House más sofisticado. El ambiente perfecto para socializar.",
+      "Os ayudo a diseñar la ambientación sonora ideal: desde Jazz y Bossa Nova hasta Deep House sofisticado. Creo la playlist perfecta para que vuestros invitados disfruten.",
   },
   {
     icon: Users,
     title: "Banquete",
-    subtitle: "The Dinner",
+    subtitle: "Asesoramiento",
     description:
-      "Música de fondo que permite la conversación pero mantiene la energía alta durante las entregas de regalos y momentos especiales.",
-  },
-  {
-    icon: Music,
-    title: "Baile",
-    subtitle: "The Party",
-    description:
-      "Hacer bailar a todos hasta que duela. Mezclas dinámicas, lectura de pista constante y los hits que vuestros invitados esperan.",
+      "Os oriento con la música de fondo ideal para la cena: selecciones que acompañan la conversación y realzan los momentos especiales como entregas de regalos.",
   },
 ];
+
+const mainItem = {
+  icon: Music,
+  title: "Barra Libre",
+  subtitle: "¡Aquí aparezco yo!",
+  description:
+    "Este es MI momento. Me pongo al frente de la cabina para hacer bailar a todos hasta que duela. Mezclas en directo, lectura de pista constante y la energía por las nubes. Aquí es donde la magia ocurre.",
+};
 
 export default function BodasPage() {
   return (
@@ -108,34 +109,75 @@ export default function BodasPage() {
             </h2>
             <div className="w-24 h-1 bg-white mx-auto mb-8" />
             <p className="text-xl text-zinc-400 max-w-3xl mx-auto">
-              Me encargo de todos los momentos musicales de vuestra boda,
-              cuidando la calidad del sonido y la selección de cada tema.
+              Os asesoro en cada fase musical de vuestra boda y, cuando llega la
+              barra libre, me pongo al frente de la cabina para que la fiesta
+              sea inolvidable.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {coverageItems.map((item) => (
-              <div
-                key={item.title}
-                className="group bg-zinc-900/40 p-10 rounded-3xl border border-zinc-800/50 hover:border-white/20 transition-all duration-500 hover:shadow-2xl hover:shadow-white/5"
-              >
-                <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 mb-6">
-                  <div className="w-16 h-16 rounded-2xl bg-zinc-800 flex items-center justify-center text-white group-hover:bg-white group-hover:text-black transition-colors duration-500">
-                    <item.icon className="w-8 h-8" />
+          {/* Asesoramiento */}
+          <div className="mb-12">
+            <div className="flex items-center gap-3 mb-8">
+              <div className="h-px flex-1 bg-zinc-800" />
+              <span className="text-zinc-500 text-xs font-mono uppercase tracking-[0.3em]">
+                Os asesoro antes del evento
+              </span>
+              <div className="h-px flex-1 bg-zinc-800" />
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {advisoryItems.map((item) => (
+                <div
+                  key={item.title}
+                  className="group bg-zinc-900/40 p-8 rounded-3xl border border-zinc-800/50 hover:border-white/20 transition-all duration-500 hover:shadow-2xl hover:shadow-white/5"
+                >
+                  <div className="flex flex-col items-start gap-4 mb-4">
+                    <div className="w-14 h-14 rounded-2xl bg-zinc-800 flex items-center justify-center text-white group-hover:bg-white group-hover:text-black transition-colors duration-500">
+                      <item.icon className="w-7 h-7" />
+                    </div>
+                    <div>
+                      <h3 className="text-2xl font-bold tracking-tight">
+                        {item.title}
+                      </h3>
+                      <p className="text-zinc-500 text-xs font-mono mt-1 uppercase tracking-widest">
+                        {item.subtitle}
+                      </p>
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="text-3xl font-bold tracking-tight">
-                      {item.title}
-                    </h3>
-                    <p className="text-zinc-500 text-sm font-mono mt-1 uppercase tracking-widest">
-                      {item.subtitle}
-                    </p>
-                  </div>
+                  <p className="text-zinc-400 text-base leading-relaxed">
+                    {item.description}
+                  </p>
                 </div>
-                <p className="text-zinc-400 text-lg leading-relaxed">
-                  {item.description}
-                </p>
+              ))}
+            </div>
+          </div>
+
+          {/* Barra Libre — Presencia física */}
+          <div>
+            <div className="flex items-center gap-3 mb-8">
+              <div className="h-px flex-1 bg-zinc-800" />
+              <span className="text-white text-xs font-mono uppercase tracking-[0.3em]">
+                Mi presencia en vuestra boda
+              </span>
+              <div className="h-px flex-1 bg-zinc-800" />
+            </div>
+            <div className="group bg-zinc-900/40 p-10 md:p-12 rounded-3xl border border-white/20 hover:border-white/40 transition-all duration-500 hover:shadow-2xl hover:shadow-white/10 relative overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent pointer-events-none" />
+              <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center gap-8">
+                <div className="w-20 h-20 rounded-2xl bg-white flex items-center justify-center text-black shrink-0">
+                  <mainItem.icon className="w-10 h-10" />
+                </div>
+                <div>
+                  <h3 className="text-4xl font-bold tracking-tight mb-1">
+                    {mainItem.title}
+                  </h3>
+                  <p className="text-white text-sm font-mono mt-1 uppercase tracking-widest mb-4">
+                    {mainItem.subtitle}
+                  </p>
+                  <p className="text-zinc-300 text-lg leading-relaxed">
+                    {mainItem.description}
+                  </p>
+                </div>
               </div>
-            ))}
+            </div>
           </div>
         </div>
       </section>

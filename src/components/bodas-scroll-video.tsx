@@ -14,8 +14,8 @@ export function BodasScrollVideo() {
         caption: "NACHO COSTERO DJ • BODAS",
         heading: "Donde la música cuenta vuestra historia",
         paragraphs: [
-          "Cada boda es única. La música que suena en vuestro gran día debe serlo también.",
-          "Desde la ceremonia hasta el último baile, cada momento tiene su banda sonora perfecta.",
+          "Cada boda es única. Os asesoro en cada detalle musical para que todo suene perfecto.",
+          "Y cuando llega la barra libre, me pongo al frente de la cabina para que nadie pare de bailar.",
         ],
       }}
     />

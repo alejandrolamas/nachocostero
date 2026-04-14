@@ -104,7 +104,7 @@ export function TimelineExperience() {
                 Una vez formalizamos la reserva, empieza lo divertido. Me encantará escuchar vuestros gustos y preferencias musicales: canciones imprescindibles, estilos favoritos y esas canciones que no pueden faltar.
               </p>
               <p className="text-zinc-400 text-sm md:text-base">
-                Juntos elegiremos el montaje de sonido ideal para vuestro espacio. Os doy mi asesoramiento profesional para que todo suene perfecto y la experiencia esté cuidada al detalle.
+                Os asesoro en cada momento musical de la boda —ceremonia, cóctel, banquete— para que todo suene perfecto aunque yo no esté físicamente. Juntos elegiremos el montaje de sonido ideal para vuestro espacio y dejaré todo preparado al detalle.
               </p>
             </div>
           </div>
@@ -118,7 +118,7 @@ export function TimelineExperience() {
           <div className="flex items-start gap-4">
             <PartyPopper className="w-8 h-8 text-zinc-300 shrink-0 mt-1" />
             <p className="text-zinc-300">
-              Llegó el gran día. Yo me encargo de leer la pista, mantener la energía por las nubes, hacer transiciones perfectas y asegurarme de que tanto vosotros como vuestros invitados no podáis parar de bailar. ¡Vosotros solo encargaros de disfrutar!
+              Llegó el gran día. Cuando arranca la barra libre, aparezco yo. Me pongo al frente de la cabina para leer la pista, mantener la energía por las nubes, hacer transiciones perfectas y asegurarme de que tanto vosotros como vuestros invitados no podáis parar de bailar. ¡Vosotros solo encargaros de disfrutar!
             </p>
           </div>
           <div className="grid grid-cols-2 gap-4">
