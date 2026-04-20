@@ -56,7 +56,7 @@ export default function ContactoPage() {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold mb-1">Teléfono</h4>
-                    <a href="tel:+34656348618" className="text-zinc-400 hover:text-white transition-colors">
+                    <a href="https://wa.me/34656348618" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-white transition-colors">
                       +34 656 348 618
                     </a>
                   </div>
@@ -87,7 +87,7 @@ export default function ContactoPage() {
                   <Instagram className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://open.spotify.com/artist/nachocostero"
+                  href="https://open.spotify.com/playlist/3aN1fAJf8nacJ8hTaSffWb?si=4BAg9r_BQjOCC7WzfM4cFg&pi=UqYwR_WbTuCuU"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Spotify"

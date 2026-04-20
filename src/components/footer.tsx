@@ -23,7 +23,7 @@ export function Footer() {
               <Instagram className="w-6 h-6" />
             </a>
             <a
-              href="https://open.spotify.com/artist/nachocostero"
+              href="https://open.spotify.com/playlist/3aN1fAJf8nacJ8hTaSffWb?si=4BAg9r_BQjOCC7WzfM4cFg&pi=UqYwR_WbTuCuU"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Spotify"

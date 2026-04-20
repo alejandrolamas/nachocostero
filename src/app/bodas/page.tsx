@@ -204,7 +204,9 @@ export default function BodasPage() {
               Pedir Presupuesto
             </Link>
             <a
-              href="tel:+34600000000"
+              href="https://wa.me/34656348618"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-full sm:w-auto px-10 py-5 bg-zinc-900 text-white font-bold rounded-full border border-zinc-800 hover:bg-zinc-800 transition-all text-center"
             >
               Llamar ahora
