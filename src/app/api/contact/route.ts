@@ -128,15 +128,19 @@ export async function POST(request: Request) {
       );
     }
 
-    const transporter = nodemailer.createTransport({
-      host: process.env.SMTP_HOST,
+    const smtpConfig: nodemailer.TransportOptions & { host: string; port: number; secure: boolean; tls?: { rejectUnauthorized: boolean }; auth?: { user: string; pass: string } } = {
+      host: process.env.SMTP_HOST || "127.0.0.1",
       port: Number(process.env.SMTP_PORT) || 587,
       secure: Number(process.env.SMTP_PORT) === 465,
-      auth: {
+      tls: { rejectUnauthorized: false },
+    };
+    if (process.env.SMTP_USER) {
+      smtpConfig.auth = {
         user: process.env.SMTP_USER,
-        pass: process.env.SMTP_PASS,
-      },
-    });
+        pass: process.env.SMTP_PASS || "",
+      };
+    }
+    const transporter = nodemailer.createTransport(smtpConfig);
 
     const logoPath = path.join(process.cwd(), "public", "Nacho Costero 150px (1).png");
 
